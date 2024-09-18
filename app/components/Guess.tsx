@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Guess = ({ word, guess = '', isGuessed }) => {
+const Guess = ({ word, guess, isGuessed }) => {
   return (
     <div className="grid grid-cols-5 gap-2 mb-2">
       {
